@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# questfetch pc wrapper: pushes the script to the headset and runs it
+
+SCRIPT="${QUESTFETCH_SCRIPT:-$HOME/.local/share/questfetch/questfetch.sh}"
+
+if ! adb get-state >/dev/null 2>&1; then
+  echo "no headset found over adb (check 'adb devices')"
+  exit 1
+fi
+
+adb push "$SCRIPT" /data/local/tmp/questfetch >/dev/null
+adb shell su -c "sh /data/local/tmp/questfetch $*"
