@@ -21,7 +21,7 @@ A fastfetch style system info tool for rooted Meta Quest headsets. Shows the Met
 ## Install
 
 ```
-git clone https://github.com/YOURNAME/questfetch
+git clone https://github.com/idoitthemodder/questfetch
 cd questfetch
 ./install.sh
 ```
