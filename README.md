@@ -2,7 +2,7 @@
 
 A fastfetch style system info tool for rooted Meta Quest headsets. Shows the Meta or Oculus logo with a color gradient, grouped sections, and live bars for RAM, storage, battery and GPU load.
 
-![questfetch](screenshot.png)
+![questfetch](screenshots/default.png)
 
 ## Features
 
@@ -11,6 +11,30 @@ A fastfetch style system info tool for rooted Meta Quest headsets. Shows the Met
 - Colored bars for RAM, storage, battery and GPU load
 - CPU temp, battery temp, active slot, SELinux mode, Magisk version, Frida status
 - 7 color themes, live watch mode, plain shell script with no dependencies
+
+## Gallery
+
+Colors and logos are picked with flags, see Usage below.
+
+| Default (Quest 3, Meta logo) | Oculus logo (`-o`) |
+| --- | --- |
+| <img src="screenshots/default.png" width="420"> | <img src="screenshots/oculus.png" width="420"> |
+
+| Purple (`-c purple`) | Rainbow (`-c rainbow`) |
+| --- | --- |
+| <img src="screenshots/purple.png" width="420"> | <img src="screenshots/rainbow.png" width="420"> |
+
+| Sunset (`-c sunset`) | Mint (`-c mint`) |
+| --- | --- |
+| <img src="screenshots/sunset.png" width="420"> | <img src="screenshots/mint.png" width="420"> |
+
+| Fire (`-c fire`) | White (`-c white`) |
+| --- | --- |
+| <img src="screenshots/fire.png" width="420"> | <img src="screenshots/white.png" width="420"> |
+
+| No logo (`-n`) |
+| --- |
+| <img src="screenshots/nologo.png" width="420"> |
 
 ## Requirements
 
